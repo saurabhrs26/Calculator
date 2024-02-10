@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="logic.js"></script>
+  </head>
+  <body>
+    <h1>Don't use it in your Exams</h1>
+    <div class="Bigcontainer">
+      <h3>Calculator</h3>
+      <div id="display">
+        <input type="text" id="txt"/>
+      </div>
+      <div class="row1">
+        <button type="submit" id="clear" onclick="cleardisplay()">CLR</button>
+        <button type="submit" id="bracket" onclick="bracket1()">(</button>
+        <button type="submit" id="bracket" onclick="bracket2()">)</button>
+        <button type="submit" id="mod" onclick="mod()">%</button>
+        
+      </div>
+      <div class="row2">
+        <button type="submit" id="seven" onclick="appendnumber(7)">7</button>
+        <button type="submit" id="eight" onclick="appendnumber(8)">8</button>
+        <button type="submit" id="nine" onclick="appendnumber(9)">9</button>
+        <button type="submit" id="divide" onclick="divide()">/</button>
+        
+      </div>
+      <div class="row3">
+        <button type="submit" id="four" onclick="appendnumber(4)">4</button>
+        <button type="submit" id="five" onclick="appendnumber(5)">5</button>
+        <button type="submit" id="six" onclick="appendnumber(6)">6</button>
+        <button type="submit" id="mutiply" onclick="multiply()">x</button>
+        
+      </div>
+      <div class="row4">
+        <button type="submit" id="one" onclick="appendnumber(1)">1</button>
+        <button type="submit" id="two" onclick="appendnumber(2)">2</button>
+        <button type="submit" id="three" onclick="appendnumber(3)">3</button>
+        <button type="submit" id="subtract" onclick="subtract()">-</button>
+        
+      </div>
+      <div class="row5">
+        <button type="submit" id="zero" onclick="appendnumber(0)">0</button>
+        <button type="submit" id="ans" onclick="decimal()">.</button>
+        <button type="submit" id="ans" onclick="calculate()">Ans</button>
+        <button type="submit" id="add" onclick="add()">+</button>
+       
+        
+        </div>
+    </div>
+  </body>
+</html>

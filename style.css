@@ -1,0 +1,71 @@
+.Bigcontainer{
+    height: 380px;
+    width: 310px;
+    box-shadow: 3px 3px 12px 3px grey;
+    margin-left: 550px;
+    margin-top: 10px;
+    border: 3px solid black;
+    background-color:whitesmoke;
+
+}
+h3{
+    text-align: center;
+    padding-top: 10px;
+}
+#display{
+    height: 40px;
+    width: 265px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+   
+}
+input{
+    height:32px;
+    width:256px;
+    box-shadow: 3px 3px 12px 3px grey;
+    border:1px solid black;
+    border-radius: 3px 3px;
+}
+.row1{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.row2{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.row3{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.row4{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.row5{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+
+button{
+    height: 40px;
+    width:55px;
+    border:2px solid black;
+    box-shadow: 2px 3px 12px 2px grey;
+    border-radius: 3px 3px;
+    font-size: 19px;
+    background-color:white;
+}
+button:hover{
+    height: 40px;
+    width:55px;
+    border:2px solid black;
+    box-shadow: 2px 3px 12px 2px grey;
+    border-radius: 5px 5px;
+    font-size: 19px;
+    background-color:grey;
+}
+h1{
+    text-align: center;
+}
